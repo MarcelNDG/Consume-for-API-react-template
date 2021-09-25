@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 
 const FetchTest = () => {
     const [equipo, setEquipo] = useState([])
-    
+
+       
     useEffect(() => {
     console.log('Holas');
     obtenerDatos()
@@ -25,6 +26,11 @@ const FetchTest = () => {
     b- useState() is what holds the default value of const equipo, so, if const equipo is false, then
       is useState(false)
     c-When useState is null must be useState([])
+
+  --- useEffect ---  
+  2- useEffect must be called inside the component function, you can call DOM elements in react, use
+    event listeners, after the react components mount, you can't do that conventionally in react, it has a 
+    mount, and unmount and and input value respectively
   
   */
 
