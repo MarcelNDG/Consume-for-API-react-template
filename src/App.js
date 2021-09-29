@@ -1,12 +1,12 @@
 import './App.css';
 
-import FetchTest from './components/FetchTest.jsx'
+import FetchTest2 from './components/FetchTest2'
 
 
 function App() {
   return (
     <div className="App">
-      <FetchTest />      
+      <FetchTest2 />      
     </div>
   );
 }
